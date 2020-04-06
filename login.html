@@ -1,0 +1,226 @@
+<!DOCTYPE html> 
+<html> 
+<title>LOGIN PAGE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><style> 
+
+   form { 
+        border: 3px solid #808080; 
+    } 
+.header img {
+  float: left;
+  width: 80px;
+  height: 37px;
+  
+}
+
+.header h1 {
+ 
+  top: 18px;
+  left: 10px;
+}
+h3 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+text-decoration: none;
+} 
+
+h3 span { 
+    background:#fff; 
+    padding:0 10px; 
+text-decoration: none;
+}
+.input-container {
+  
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+padding: 8px;
+height:25px;
+    background: lightblue;
+font-size:large;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+border-radius:10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 15px;
+  outline: none;
+}
+
+
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+      
+    input[type=text], 
+    input[type=password] { 
+        width: 100%; 
+        padding:8px; 
+        margin: 6px 0; 
+        border: 2px solid #ccc; 
+	border-radius:5px;
+	outline:none;
+	
+    } 
+
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+font-size: 25px;
+}
+.epam {
+  background-color: #ADFF2F;
+  color: white;
+font-size: 20px;
+}
+    /*set a style for the buttons*/ 
+      
+    button { 
+        background-color: powderblue; 
+        color: white; 
+        padding: 14px 20px; 
+        margin: 8px 0; 
+        border: none; 
+        cursor: pointer; 
+        width: 100%; 
+    } 
+    /* set a hover effect for the button*/ 
+      
+    button:hover { 
+        opacity: 0.8; 
+    } 
+.fb {
+  background-color: #3B5998;
+  color: white;
+font-size: 25px;
+}
+      
+    .imgcontainer { 
+        text-align: center; 
+        margin: 24px 0 12px 0; 
+    } 
+    /*set image properties*/ 
+      
+    img.avatar { 
+        width: 40%; 
+        border-radius: 50%; 
+    } 
+    /*set padding to the container*/ 
+      
+    .container { 
+        padding: 16px; 
+    } 
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+    /*set the forgot password text*/ 
+      
+    span.psw { 
+        float: left; 
+        padding-top: 16px; 
+    } 
+span.psww { 
+        float: right; 
+        padding-top: 16px; 
+    } 
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+padding:9px 8px;
+  margin-bottom: 15px;
+	bottom:8px;
+}
+    /*set styles for span and cancel button on small screens*/ 
+      
+    @media screen and (max-width: 300px) { 
+        span.psw { 
+            display: block; 
+            float: none; 
+        } 
+	
+        .cancelbtn { 
+            width: 100%; 
+        } 
+    } 
+.btn {
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #ccc; 
+  text-align: center; 
+  margin: 3px 0;
+  opacity: 0.85;
+box-sizing: border-box; 
+  display: inline-block;
+  
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+</style> 
+  
+<body> 
+  <div class="content">
+  
+<div class="header">
+  <img src="logo.png" alt="logo"  />
+  <h1 style="background-color:powderblue;"><center>Sign In</h1>
+</div
+    <!--Step 1 : Adding HTML-->
+    <form>
+  
+        <div class="container"> 
+            
+            
+  
+
+
+  <div class="input-container"><i class="fa fa-envelope icon"></i>
+    
+    <input class="input-field" type="text" placeholder="Email" name="email">
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Password" name="psw">
+  </div>  
+          <button type="submit"><br>SIGN IN</br></button> 
+           <a href="#">Forgot password</a><a href="#" style="float: right;">Register!</a><BR><BR>
+<h3><span>OR</span></h3>
+
+
+<a href="#" class="fb btn">f</a>
+<a href="#" class="google btn"> g</a><BR><br>
+<a href="#" class="epam btn">EPAM LOGIN</a>      
+</div> 
+    </form> 
+  
+</body> 
+  
+</html> 
